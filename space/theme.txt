@@ -31,22 +31,26 @@ terminal-border: "0"
   selected_item_pixmap_style = "select_*.png"
 }
 
-#+ image {
-#  top = 100%-50
-#  left = 50%-240
-#  width = 480
-#  height = 42
-#  file = "info.png"
-#}
-
-# Show a countdown message using the label component
 + label {
-  top = 82%
-  left = 32%
-  width = 36%
+  left = 50%-300
+  top = 50%+220
+  height = 30
+  width = 600
+  color = "#ffffff"
   align = "center"
-  id = "__timeout__"
-  text = "Booting in %d seconds"
-  color = "#cccccc"
-  font = "Unifont Regular 16"
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  font = "Unifont Regular 12"
+}
+
++ progress_bar {
+        left = 50%-300
+        top = 50%+180
+        width = 600
+        height = 15
+        align = "center"
+        id = "__timeout__"
+        text = "Boot in %d seconds"
+        font = "Unifont Regular 14"
+        color = "#ffffff"
+        border_color = "grey"
 }
