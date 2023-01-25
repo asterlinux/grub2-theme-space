@@ -1,7 +1,7 @@
 # Maintainer: Sahan Rasanjana <sahan.user@gmail.com>
 pkgname=grub2-theme-space
 pkgver=1
-pkgrel=6
+pkgrel=7
 pkgdesc="Minimalistic theme for grub"
 arch=("x86_64")
 url="https://github.com/asterlinux/grub2-theme-space"

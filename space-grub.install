@@ -1,9 +1,9 @@
 post_install() {
   echo " "
-  echo "To use this theme, change following line on /etc/default/grub or add it if dosent exist"
+  echo "To use this theme, change following line on /etc/default/grub"
   echo " "
   echo "GRUB_THEME='/boot/grub/themes/THEME/theme.txt'"
   echo "to "
   echo "GRUB_THEME='/boot/grub/themes/space/theme.txt'"
-  echo " "
+  echo "Then run 'sudo grub-mkconfig -o /boot/grub/grub.cfg'"
 }
