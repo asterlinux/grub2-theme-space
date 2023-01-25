@@ -2,6 +2,8 @@
 
 git add .
 
+echo "Enter your commit"
+read input
 
-git commit -m "grub Space theme"
-git push
+git commit -m "$input"
+git push -u origin master
