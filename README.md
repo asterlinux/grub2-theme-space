@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/github/issues/asterlinux/grub2-theme-space?color=violet&style=flat-square">
 </p>
 <p align="center">
-  <img src="grub_theme.png">
+  <img src="grub_space.png">
 </p>
 
 <p align="center">Grub2 theme Minimal</a>.
