@@ -32,25 +32,24 @@ terminal-border: "0"
 }
 
 + label {
-  left = 50%-300
-  top = 50%+220
-  height = 30
-  width = 600
-  color = "#ffffff"
+  left = 0
+  top = 100%-48
+  width = 100%
   align = "center"
-  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
-  font = "Unifont Regular 12"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  font = "Unifont Regular 14"
+  color = "#ffffff"
 }
 
-+ progress_bar {
-        left = 50%-300
-        top = 50%+180
-        width = 600
-        height = 15
-        align = "center"
-        id = "__timeout__"
-        text = "Boot in %d seconds"
-        font = "Unifont Regular 14"
-        color = "#ffffff"
-        border_color = "grey"
+# Show an informational message.
++ hbox {
+                top = 100%-30
+                left = 12%
+                + label {text = "Enter: " font = "Sans 12" color = "#4c4c4c" align = "left"}
+                + label {text = "Boot Selection     " font = "Sans 12" color = "#1692d0" align = "left"}
+                + label {text = "E: " font = "Sans 12" color = "#4c4c4c" align = "left"}
+                + label {text = "Edit Selection     " font = "Sans 12" color = "#1692d0" align = "left"}
+                + label {text = "C: " font = "Sans 12" color = "#4c4c4c" align = "left"}
+                + label {text = "GRUB Commandline" font = "Sans 12" color = "#1692d0" align = "left"}
 }
