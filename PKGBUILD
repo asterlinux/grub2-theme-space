@@ -1,7 +1,7 @@
 # Maintainer: Sahan Rasanjana <sahan.user@gmail.com>
 pkgname=grub2-theme-space
-pkgver=1
-pkgrel=9
+pkgver=2
+pkgrel=1
 pkgdesc="Minimalistic theme for grub"
 arch=("x86_64")
 url="https://github.com/asterlinux/grub2-theme-space"
@@ -12,6 +12,6 @@ source=("space.tar.gz")
 md5sums=("SKIP")
 
 package() {
-	mkdir -p "${pkgdir}/boot/grub/themes/"
-	cp -r "${srcdir}/space/" "${pkgdir}/boot/grub/themes/"
+	mkdir -p "${pkgdir}/usr/share/grub/themes/"
+	cp -r "${srcdir}/space/" "${pkgdir}/usr/share/grub/themes/"
 }
