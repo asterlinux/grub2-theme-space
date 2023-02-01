@@ -45,7 +45,7 @@ terminal-border: "0"
 # Show an informational message.
 + hbox {
                 top = 100%-30
-                left = 12%
+                left = 24%
                 + label {text = "Enter: " font = "Sans 12" color = "#4c4c4c" align = "left"}
                 + label {text = "Boot Selection     " font = "Sans 12" color = "#1692d0" align = "left"}
                 + label {text = "E: " font = "Sans 12" color = "#4c4c4c" align = "left"}
